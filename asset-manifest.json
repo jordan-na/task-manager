@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/task-manager/static/css/main.42a43592.css",
+    "main.js": "/task-manager/static/js/main.99e62d85.js",
+    "static/media/light-mode-dark.svg": "/task-manager/static/media/light-mode-dark.cdd5c11a68318dafaf5d7b4b2f17528a.svg",
+    "static/media/light-mode-light.svg": "/task-manager/static/media/light-mode-light.f5549b5833c4a7763fb3c6d67132bef4.svg",
+    "static/media/dark-mode-dark.svg": "/task-manager/static/media/dark-mode-dark.a9eda99a134c21c7d1dcde39001e4a6f.svg",
+    "static/media/dark-mode-light.svg": "/task-manager/static/media/dark-mode-light.5df63336b67d4cdbefeb9333d14c2c10.svg",
+    "static/media/x-dark.svg": "/task-manager/static/media/x-dark.7f7afd91c7bf0f86cb32c5228d8114fe.svg",
+    "static/media/x-light.svg": "/task-manager/static/media/x-light.601ee684f4c38045af9006a5fccb6789.svg",
+    "static/media/logo.svg": "/task-manager/static/media/logo.b2c2d6d4e4f362b7323b2152c981d813.svg",
+    "static/media/edit.svg": "/task-manager/static/media/edit.5f4f638c80b47df6f65cd3c4c1ce098e.svg",
+    "index.html": "/task-manager/index.html",
+    "static/media/arrow.svg": "/task-manager/static/media/arrow.97c94a86a2d320e01631a8094225086f.svg",
+    "static/media/trash-light.svg": "/task-manager/static/media/trash-light.c184eb9e41969d49b9cae112eb516337.svg",
+    "static/media/trash-dark.svg": "/task-manager/static/media/trash-dark.7c014b3948dd33c1fe5ec15330702e27.svg",
+    "static/media/board-purple.svg": "/task-manager/static/media/board-purple.dc86bcd5d09791cb71e124431856186d.svg",
+    "static/media/board-white.svg": "/task-manager/static/media/board-white.03422302bc388c99bcc4cc3af29f8d78.svg",
+    "static/media/open-window.svg": "/task-manager/static/media/open-window.c70c5c695f337714664b446c4e777469.svg",
+    "static/media/checkmark.svg": "/task-manager/static/media/checkmark.cd8b33228ebf4062e888c92460e724d5.svg",
+    "main.42a43592.css.map": "/task-manager/static/css/main.42a43592.css.map",
+    "main.99e62d85.js.map": "/task-manager/static/js/main.99e62d85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42a43592.css",
+    "static/js/main.99e62d85.js"
+  ]
+}
