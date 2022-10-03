@@ -1,0 +1,54 @@
+.new-column-button {
+   width: 350px;
+   cursor: pointer;
+   background: none;
+   border: none;
+   border-radius: 8px;
+   font-family: inherit;
+   font-weight: bold;
+   font-size: 22px;
+   flex-shrink: 0;
+}
+
+.new-column-button.dark {
+   background-color: #23232f;
+   color: #6b6b77;
+}
+
+.new-column-button.dark:hover {
+   color: #fff;
+}
+
+.new-column-button.light {
+   background-color: #e9f0fa;
+   color: #c3c8ce;
+}
+
+.new-column-button.light:hover {
+   color: #6b6b77;
+}
+
+@media only screen and (max-width: 1880px) {
+   .new-column-button {
+      width: 320px;
+   }
+}
+
+@media only screen and (max-width: 1400px) {
+   .new-column-button{
+      width: 300px;
+   }
+}
+
+@media only screen and (max-width: 1300px) {
+   .new-column-button {
+      width: 280px;
+   }
+}
+
+@media only screen and (max-width: 1000px) {
+   .new-column-button {
+      width: 250px;
+      font-size: 20px;
+   }
+}

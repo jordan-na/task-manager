@@ -1,0 +1,282 @@
+.sidebar {
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-shrink: 0;
+   padding: 30px 0;
+   max-height: 100vh;
+   overflow: hidden;
+}
+
+.sidebar.dark {
+   background-color: #2c2c38;
+   border-right: 1px solid #3f3f46;
+}
+
+.sidebar.light {
+   background-color: #fff;
+   border-right: 1px solid #e5e5ec;
+}
+
+.sidebar.slide-right {
+   animation: slide-right 0.3s ease-out forwards;
+}
+
+.sidebar.slide-left {
+   animation: slide-left 0.3s ease-out forwards;
+}
+
+.sidebar > div:nth-child(1) {
+   max-height: 80%;
+   overflow: hidden;
+}
+
+.bottom-controls {
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.hide-button {
+   background: none;
+   border: none;
+   font-weight: bold;
+   font-family: inherit;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 15px;
+   margin-top: 30px;
+   cursor: pointer;
+}
+
+.dark .hide-button {
+   color: #6b6b77;
+}
+
+.dark .hide-icon {
+   fill: #6b6b77;
+}
+
+.dark .hide-button:hover {
+   color: #fff;
+}
+
+.dark .hide-button:hover .hide-icon {
+   fill: #fff;
+}
+
+.light .hide-button {
+   color: #c3c8ce;
+}
+
+.light .hide-icon {
+   fill: #c3c8ce;
+}
+
+.light .hide-button:hover {
+   color: #000;
+}
+
+.light .hide-button:hover .hide-icon {
+   fill: #000;
+}
+
+.hide-button .hide-icon {
+   width: 20px;
+}
+
+
+.sidebar.hide {
+   width: 103px;
+}
+
+@keyframes slide-left {
+   0% {
+      width: 350px;
+   }
+   100% {
+      width: 102px;
+   }
+}
+
+@keyframes slide-right {
+   0% {
+      width: 102px;
+   }
+   100% {
+      width: 350px;
+   }
+}
+
+.sidebar > div:nth-child(1) > div:nth-child(2),
+.sidebar .bottom-controls {
+   transition: 0.15s;
+}
+
+.sidebar.hide > div:nth-child(1) > div:nth-child(2),
+.sidebar.hide .bottom-controls {
+   opacity: 0;
+   visibility: hidden;
+}
+
+
+@media only screen and (max-width: 1775px) {
+   .sidebar {
+      padding: 22px 0;
+   }
+   @keyframes slide-left {
+      0% {
+         width: 350px;
+      }
+      100% {
+         width: 92px;
+      }
+   }
+
+   @keyframes slide-right {
+      0% {
+         width: 92px;
+      }
+      100% {
+         width: 350px;
+      }
+   }
+   .bottom-controls {
+      margin-left: 25px;
+      margin-right: 25px;
+   }
+}
+
+@media only screen and (max-width: 1750px) {
+   .sidebar {
+      width: 320px;
+   }
+   @keyframes slide-left {
+      0% {
+         width: 320px;
+      }
+      100% {
+         width: 92px;
+      }
+   }
+
+   @keyframes slide-right {
+      0% {
+         width: 92px;
+      }
+      100% {
+         width: 320px;
+      }
+   }
+}
+
+@media only screen and (max-width: 1600px) {
+   .sidebar {
+      width: 300px;
+      padding: 18px 0;
+   }
+   @keyframes slide-left {
+      0% {
+         width: 300px;
+      }
+      100% {
+         width: 82px;
+      }
+   }
+   @keyframes slide-right {
+      0% {
+         width: 82px;
+      }
+      100% {
+         width: 300px;
+      }
+   }
+   .bottom-controls {
+      margin-left: 20px;
+      margin-right: 20px;
+   }
+}
+
+@media only screen and (max-width: 1425px) {
+   .sidebar {
+      width: 275px;
+   }
+   .hide-button {
+      margin-top: 25px;
+   }
+   @keyframes slide-left {
+      0% {
+         width: 275px;
+      }
+      100% {
+         width: 82px;
+      }
+   }
+   @keyframes slide-right {
+      0% {
+         width: 82px;
+      }
+      100% {
+         width: 275px;
+      }
+   }
+}
+
+@media only screen and (max-width: 1325px) {
+   .sidebar {
+      width: 250px;
+      padding: 16px 0;
+   }
+   .hide-button {
+      margin-top: 20px;
+   }
+   .bottom-controls {
+      margin-left: 18px;
+      margin-right: 18px;
+   }
+   @keyframes slide-left {
+      0% {
+         width: 250px;
+      }
+      100% {
+         width: 72px;
+      }
+   }
+   @keyframes slide-right {
+      0% {
+         width: 72px;
+      }
+      100% {
+         width: 250px;
+      }
+   }
+}
+
+@media only screen and (max-width: 1290px) {
+   .sidebar {
+      width: 240px;
+   }
+   @keyframes slide-left {
+      0% {
+         width: 240px;
+      }
+      100% {
+         width: 72px;
+      }
+   }
+   @keyframes slide-right {
+      0% {
+         width: 72px;
+      }
+      100% {
+         width: 240px;
+      }
+   }
+}
+
+@media only screen and (max-width: 1000px) {
+   .sidebar {
+      display: none;
+   }
+}
